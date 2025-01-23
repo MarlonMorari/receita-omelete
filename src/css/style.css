@@ -1,0 +1,63 @@
+html{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    padding: 30px;
+    background-color: var(--white2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpo-principal{
+    background-color: white;
+    padding: 60px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 20px;
+}
+.corpo-principal .titulos{
+    color: var(--wine);
+    font-family: 'Young Serif';
+}
+.cabeca{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cabeca img{
+    width: 100%;
+}
+.cabeca h1{
+    font-family: 'Young Serif', sans-serif;
+}
+.corpo-principal .tempo-de-preparo,
+.corpo-principal .ingredientes,
+.corpo-principal .instrucoes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.corpo-principal .tempo-de-preparo ul,
+.corpo-principal .ingredientes ul,
+.corpo-principal .instrucoes ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.corpo-principal .tempo-de-preparo{
+    background-color: var(--off-white);
+    padding: 20px;
+}
+.corpo-principal .nutricao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.corpo-principal .nutricao table td{
+    padding: 10px;
+}
+.corpo-principal .nutricao .borda-topo{
+    border-top: 1px solid var(--white3);
+}

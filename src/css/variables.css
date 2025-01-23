@@ -1,0 +1,10 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --white2: hsl(30, 54%, 90%);
+    --white3: hsl(30, 18%, 87%);
+    --medium-brown : hsl(30, 10%, 34%);
+    --dark-brown: hsl(24, 5%, 18%);
+    --brown: hsl(14, 45%, 36%);
+    --wine: hsl(332, 51%, 32%);
+    --off-white: hsl(330, 100%, 98%);
+}
